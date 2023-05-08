@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'amazon';
+    src: url(Amazon_Typefaces_Complete_Font_Set_Mar2020/amazon_typography_all_5e593ec/all/AmazonEmber_Rg.ttf);
+}
+body{
+    margin: 0px;
+    font-family: "amazon", sans-serif;
+}
+.container {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color:black}
+
+.ab {
+    text-align: center;
+    margin-top: 10px;
+}
+.logo {
+   
+    width: 120px;
+    
+}
+.card{
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 380px;
+    padding: 20px;
+border: 1px solid lightgray;}
+
+    .sign-text {
+text-align: left;
+font-size: 30px;
+font-weight: lighter;
+margin-top:5px;
+    }
+    .email-text {
+        text-align: left;
+        font-size: 15px;
+        font-weight: 900;
+        margin-top: -12px;
+            }
+    
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7.5px;
+    outline: none;
+    border: 1px solid #ff9900;
+    box-shadow: #ff9900 0px 2px 13px 0px;
+    border-radius: 2px;
+}
+
+button {
+    margin-top: 12px;
+    width:100%;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 13px;
+    border: 1pt solid rgb(150, 137, 137);
+    background-color: #f0c456;
+background-image: linear-gradient(0deg, #f0c456 0%, #f8e1aa 100%);
+font-weight: 550;
+
+}
+button:hover {
+    margin-top: 12px;
+    width:100%;
+    border-radius: 4px;
+    padding: 8px;
+    border: 1pt solid rgb(150, 137, 137);
+    background-color: #f0c456;
+background-image: linear-gradient(0deg, #e0aa20 0%, #f8e1aa 100%);}
+.term , .help{
+    font-weight: bold;
+    
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #3c64f4;
+}
